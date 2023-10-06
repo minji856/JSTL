@@ -1,5 +1,5 @@
 <%@ page contentType="text/html; charset=UTF-8"%>
-<%@ tablib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -12,5 +12,9 @@
 %>
 
 <%= var1 %>
+${var1} <!-- 지역변수는 안된다 => 보완 : JSTL-->
+<hr>
+<c:set var="var2" value="200"/>
+${var2}
 </body>
 </html>
