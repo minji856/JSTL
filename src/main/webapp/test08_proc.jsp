@@ -24,5 +24,9 @@
 	${foods}, ${requestScope.foods[0]}, ${foods[1]}, ${foods[2]}, ${foods[3]}
 	<!-- 에러 -->
 	${requestScope.movies[0]}, {requestScope.movies[1]}, {requestScope.movies[2]}, {requestScope.movies[3]}
+	
+	<hr>
+	뽀삐의 주인 이름 : ${param.hong} <br>
+	홍길동의 강아지 이름 : <br>
 </body>
 </html>

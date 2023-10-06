@@ -9,7 +9,7 @@
 	접근 방식 : <%= request.getMethod() %> <br>
 	접근 방식 : ${pageContext.request.method} <br>
 	세션 만료시간 : <%= session.getMaxInactiveInterval() %> 초 <br>
-	<!-- sessionScope는 메서드 이용을 못함 -->
+	<!-- sessionScope 는 메서드 이용을 못함 -->
 	세션 만료시간 : ${pageContext.session.maxInactiveInterval} 초
 </body>
 </html>
