@@ -22,5 +22,7 @@
 	<%= foods[0] %>, <%= foods[1] %>, <%= foods[2] %>, <%= foods[3] %>
 	<br><br>
 	${foods}, ${requestScope.foods[0]}, ${foods[1]}, ${foods[2]}, ${foods[3]}
+	<!-- 에러 -->
+	${requestScope.movies[0]}, {requestScope.movies[1]}, {requestScope.movies[2]}, {requestScope.movies[3]}
 </body>
 </html>
