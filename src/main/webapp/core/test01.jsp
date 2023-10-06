@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>EL,JSTL 궁합</title>
 </head>
 <body>
 <%
@@ -16,5 +16,9 @@ ${var1} <!-- 지역변수는 안된다 => 보완 : JSTL-->
 <hr>
 <c:set var="var2" value="200"/>
 ${var2}
+<br>
+<c:set var="var3" value="300"/>
+<c:set var="result" value="${var2 + var3}" />
+두 수의 합은 ${result} 입니다.
 </body>
 </html>
