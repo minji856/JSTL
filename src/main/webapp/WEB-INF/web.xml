@@ -32,4 +32,13 @@
 		<param-value>이것은 application객체에 의해 어디서든 사용할 수 있다.</param-value>
 	</context-param>
 	
+	<servlet>
+		<servlet-name>eltest</servlet-name>
+		<servlet-class>myservlet.ELTestServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>eltest</servlet-name>
+		<url-pattern>/eltest.action</url-pattern>
+	</servlet-mapping>
 </web-app>
