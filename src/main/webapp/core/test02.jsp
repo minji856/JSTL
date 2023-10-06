@@ -60,10 +60,10 @@
 	<hr> <!-- 다중조건 -->
 	<c:choose>
 		<c:when test="${param.num1 > param.num2}" >
-			%{param.num1}이 크다.
+			${param.num1}이 크다.
 		</c:when>
 		<c:when test="${param.num1 < param.num2}" >
-			%{param.num2}이 크다.
+			${param.num2}이 크다.
 		</c:when>
 		<c:otherwise>               
 			<c:if test="${!empty param.num1}" />
